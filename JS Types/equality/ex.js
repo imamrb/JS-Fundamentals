@@ -1,49 +1,5 @@
-/*
-# Wrangling Equality
+// TODO: write `findAll(..)`
 
-In this exercise, you will define a `findAll(..)` function that searches an array and returns an array with all coercive matches.
-
-## Instructions
-
-1. The `findAll(..)` function takes a value and an array. It returns an array.
-
-2. The coercive matching that is allowed:
-
-	- exact matches (`Object.is(..)`)
-	- strings (except "" or whitespace-only) can match numbers
-	- numbers (except `NaN` and `+/- Infinity`) can match strings (hint: watch out for `-0`!)
-	- `null` can match `undefined`, and vice versa
-	- booleans can only match booleans
-	- objects only match the exact same object
-
-*/
-function findAll(match,arr) {
-  var ret = [];
-  for (let v of arr) {
-    if (Object.is(match,v)) {
-      ret.push(v);
-    }
-    else if (match == null && v == null) {
-      ret.push(v);
-    }
-    else if (typeof match == "boolean") {
-      if (match === v) {
-        ret.push(v);
-      }
-    }
-    else if (typeof match == "string" && match.trim() != "" && typeof v == "number" && !Object.is(-0,v)) {
-      if (match == v) {
-        ret.push(v);
-      }
-    }
-    else if (typeof match == "number" && !Object.is(match,-0) && !Object.is(match,NaN) && !Object.is(match,Infinity) && !Object.is(match,-Infinity) && typeof v == "string" && v.trim() != "") {
-      if (match == v) {
-        ret.push(v);
-      }
-    }
-  }
-	return ret;
-}
 
 
 // tests:
