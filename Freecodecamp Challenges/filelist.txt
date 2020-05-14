@@ -1,0 +1,24 @@
+1.spinal-tap-case.js
+10.smallest-common-multiple.js
+11.drop-it.js
+12.steamroller.js
+13.binary-agents.js
+14.everything-be-true.js
+15.arguments-optional.js
+16.make-a-person.js
+17.map-the-debris.js
+18.palindrome-checker.js
+19.roman-numeral-converter.js
+2.pig-latin.js
+20.caesars-cipher.js
+21.telephone-number-validator.js
+22.cash-register.js
+3.search-and-replace (1).js
+4.dna-pairing.js
+5.missing-letters.js
+6.sorted-union.js
+7.convert-html-entities.js
+8.sum-all-odd-fibonacci-numbers.js
+9.sum-all-primes.js
+filelist.txt
+README.md
