@@ -1,10 +1,8 @@
-# Learn JavaScript
-### The reposity contains some excercises and resources focusing on the core concepts of JavaScript a.k.a [ECMAScript](https://www.ecma-international.org/ecma-262/)
+# JavaScript
 
-I have done the excercises for learning JavaScript.
+The reposity contains excercises and resources focusing on the core concepts of [JavaScript a.k.a ECMAScript](https://www.ecma-international.org/ecma-262/)
 
 ## Resources
-I have found the following resources helpful when learning JavaScript.
 
 ### Tutorials
 
@@ -22,7 +20,7 @@ I have found the following resources helpful when learning JavaScript.
  - [JavaScript Promises: An introduction](https://web.dev/promises/)
 
 ### Blogs to follow 
-- [Tania Rascia](https://www.taniarascia.com/) : *Favourite
+- [Tania Rascia](https://www.taniarascia.com/)
 - [Digital Ocean](https://www.digitalocean.com/community/tags/javascript)
 - [DailyJS](https://medium.com/dailyjs)
 - [Jack Franklin Blog](https://www.jackfranklin.co.uk/blog/)
